@@ -11,5 +11,9 @@
 }
 
 .top-nav{
-  justify-content: end;
+  justify-content: center;
+}
+
+.well{
+  background-color: #969696
 }

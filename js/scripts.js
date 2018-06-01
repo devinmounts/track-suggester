@@ -15,7 +15,7 @@ $(function(){
 
 
     var total = questionOne + questionTwo + questionThree + questionFour + questionFive ;
-    alert(total);
+    
 
     if(total <=5 && total !=0 ){
       $("#cSharp").show();
