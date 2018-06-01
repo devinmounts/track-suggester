@@ -11,9 +11,14 @@
 }
 
 .top-nav{
-  justify-content: center;
+  justify-content: end;
 }
 
 .well{
   background-color: #969696
+}
+
+#head-img{
+  float: left;
+
 }

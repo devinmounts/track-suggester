@@ -8,27 +8,42 @@
     <title>Track Suggester</title>
   </head>
   <body>
-    <img src="img/epicodus.jpg" alt="Epicodus Logo">
-    <div class="top-nav">
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-    </div>
+    <header>
+      <div>
+        <img  id="head-img" src="img/epicodus1.jpg" alt="Epicodus Logo">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="https://github.com/devinmounts?tab=repositories">Repositories</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="http://devinmounts.github.io/portfolio-landing-page">Home<span class="sr-only">(current)</span></a></li>
+              </ul>
+              <form class="navbar-form navbar-left">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </header>
     <div class="container">
       <div class="jumbotron">
         <h1>Are you interested in Epicodus?</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus blandit sapien, et maximus mauris faucibus at. Nunc lorem augue, suscipit commodo egestas ac, dapibus pellentesque lacus. In pharetra enim eu est mattis ullamcorper. Praesent vehicula lorem metus, ac dictum ligula ornare ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc massa turpis, vestibulum a tristique ut, imperdiet non orci. Maecenas finibus mollis libero vitae ornare. Curabitur nec consectetur lorem. Proin sagittis tincidunt lorem at pretium.</p>
+        <p>Are you curious about becoming a developer, but find yourself wondering which language would best suit your career goals?  Take our short questionaire to find out which development track is best suited for you.</p>
       </div>
 
       <form>
@@ -83,8 +98,8 @@
           </select>
         </div>
         <button type="submit" type="btn btn-primary" id=submitButton>Discover your track!</button>
-        <div class="well">
-          <div id="cSharp" class="track-match">
+        <div id="cSharp" class="track-match">
+          <div class="well">
             <h1>C#</h1>
             <img src="img/csharp.jpg" alt="C sharp logo">
             <ul>
@@ -92,9 +107,10 @@
               <li>Because it has the backing of Microsoft, it is one of the most in-demand languages in the job market. </li>
               <li>If you like the idea of working for a larger company on business software, C# is a great choice.</li>
             </ul>
-
           </div>
-          <div id="css" class="track-match">
+        </div>
+        <div id="css" class="track-match">
+          <div class="well">
             <h1>CSS/React</h1>
             <img src="img/css.jpg" alt="C sharp logo">
             <ul>
@@ -103,7 +119,9 @@
               <li>Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized and laid out, what background images or colors are used, .</li>
             </ul>
           </div>
-          <div id="ruby" class="track-match">
+        </div>
+        <div id="ruby" class="track-match">
+          <div class="well">
             <h1>Ruby</h1>
             <img src="img/ruby.jpg" alt="C sharp logo">
             <ul>
@@ -112,7 +130,9 @@
               <li>Ruby simplifys many of the common tasks associated with building web applications.</li>
             </ul>
           </div>
-          <div id="research" class="track-match">
+        </div>
+        <div id="research" class="track-match">
+          <div class="well">
             <h1>You seem unsure, here is more information to research.</h1>
             <img src="img/research.jpg" alt="C sharp logo">
             <h3>Here are a few blogs to read that may help you clarify what you are looking for.</h3>
