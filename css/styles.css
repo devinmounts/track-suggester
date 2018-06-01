@@ -19,7 +19,7 @@
 }
 
 #head-img{
-  float: left;
+  display: inline;
 
 }
 
@@ -35,4 +35,8 @@ footer{
 
 #underlineh3{
   text-decoration: underline;
+}
+
+@media all and (min width 768px){
+
 }

@@ -2,7 +2,7 @@
 
 #### _A webpage that helps users determine the appropriate development language track, 06.01.2018_
 
-#### By _**Devin**_
+#### By _**Devin Mounts**_
 
 ## Description
 
@@ -10,13 +10,8 @@ _This webpage asks the user a series of questions within a form. Based on the pr
 
 ## Setup/Installation Requirements
 
-* _Clone the repository: <link> using git clone in the terminal._
-* _open index.html using a web browser._
-
-
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+* _Clone the repository: enter git clone https://github.com/devinmounts/track-suggester in your computer terminal._
+* _Open index.html using a web browser._
 
 ## Support and contact details
 
@@ -24,7 +19,7 @@ _For any support, questions or suggestions please contact me by email._
 
 ## Technologies Used
 
-_This webpage uses HTML and CSS with Bootstrap styling, and includes functionality with javascript and JQuery._
+_This webpage uses HTML and CSS with Bootstrap styling, and includes functionality with Javascript and JQuery._
 
 ### License
 
