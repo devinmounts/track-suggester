@@ -12,19 +12,23 @@ $(function(){
     var questionFive = $("#fifthQuestion").val();
     alert(questionFive);
 
-    // $(".track-match").hide();
+    $(".track-match").hide();
 
 
     var numLine = questionOne + questionTwo + questionThree + questionFour + questionFive;
     alert(numLine);
 
-    var search = (numLine, 0)
-  alert(search);
-    if(total <=5 && total !=0 ){
+    var count1 = (numLine.match(/1/g) || []).length;
+    var count2 = (numLine.match(/2/g) || []).length;
+    var count3 = (numLine.match(/3/g) || []).length;
+    var count4 = (numLine.match(/4/g) || []).length;
+    alert(count4);
+
+    if(count1>count2 && count1>count3 && count1>count4){
       $("#cSharp").show();
-    } else if(total <=10 && total >=6){
+    } else if(count2>count1 && count2>count3 && count2>count4){
       $("#ruby").show();
-    } else if(total >=11 && total <=15){
+    } else if(count3>count1 && count3>count2 && count3>count4){
       $("#css").show();
     } else {
       $("#research").show();
