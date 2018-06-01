@@ -10,19 +10,17 @@ $(function(){
 
     var questionFive = parseInt($("#fifthQuestion").val());
 
-    var questionSix = parseInt($("#sixthQuestion").val());
-
     $(".track-match").hide();
 
-    var total = questionOne + questionTwo + questionThree + questionFour + questionFive + questionSix;
+    var total = questionOne + questionTwo + questionThree + questionFour + questionFive;
     alert(total);
 
-    if(total <= 6){
+    if(total >0 && total <= 5){
       $("#cSharp").show();
-    } else if(total <=12 && total >=7){
-      $("#react").show();
-    } else if(total >=13 && total <=18){
+    } else if(total <=10 && total >=6){
       $("#ruby").show();
+    } else if(total >=11 && total <=15){
+      $("#css").show();
     } else {
       $("#research").show();
     }
