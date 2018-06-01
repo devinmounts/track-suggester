@@ -22,3 +22,17 @@
   float: left;
 
 }
+
+.track-img{
+  border-radius: 10px;
+  display: inline;
+  padding-bottom: 10px;
+}
+
+footer{
+  background-color: black;
+}
+
+#underlineh3{
+  text-decoration: underline;
+}

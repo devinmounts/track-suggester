@@ -9,36 +9,7 @@
   </head>
   <body>
     <header>
-      <div>
-        <img  id="head-img" src="img/epicodus1.jpg" alt="Epicodus Logo">
-        <nav class="navbar navbar-default">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="https://github.com/devinmounts?tab=repositories">Repositories</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="http://devinmounts.github.io/portfolio-landing-page">Home<span class="sr-only">(current)</span></a></li>
-              </ul>
-              <form class="navbar-form navbar-left">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-              </form>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-      </div>
+      <img  id="head-img" src="img/epicodus.jpg" alt="Epicodus Logo">
     </header>
     <div class="container">
       <div class="jumbotron">
@@ -51,29 +22,29 @@
           <label for="first-question">Background Experience</label>
           <select class="form-control" id="firstQuestion">
             <option value="0"></option>
-            <option value="1">I enjoy large corporate settings.</option>
-            <option value="2">I enjoy smaller businesses and dynamic work environments.</option>
-            <option value="3">I enjoy creative expression and styling.</option>
+            <option value="1">I have previously worked for large companies, and and wish to continue in this sector.</option>
+            <option value="2">I have worked in smaller businesses and enjoy dynamic work environments.</option>
+            <option value="3">I have worked in business, sales, marketing, and this is where I feel best suited.</option>
             <option value="4">I have never had a career.</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="second-question">What work environment can you see yourself in?</label>
+          <label for="second-question">What work environment do you see yourself in?</label>
           <select class="form-control" id="secondQuestion">
             <option value="0"></option>
             <option value="1">I want to work in a government, corporate or large business setting.</option>
-            <option value="2">I want to work in a small company, like a start-up</option>
-            <option value="3">I would like to work for a marketing or design company?</option>
-            <option value="4">I want to gain a skill as a hobbie.</option>
+            <option value="2">I want to work in a small company, like a start-up.</option>
+            <option value="3">I would like to work for a marketing or design company.</option>
+            <option value="4">I am not sure of my work intentions.</option>
           </select>
         </div>
         <div class="form-group">
           <label for="third-question">What is your technical and logistical aptitude?</label>
           <select class="form-control" id="thirdQuestion">
             <option value="0"></option>
-            <option value="1">I am very adept at complex technical an logistical challenges</option>
-            <option value="2">I am confident in my technical abilities, but don't enjoy tedius and overcomplicated tasks. </option>
-            <option value="3">I am not fond of logistical challenges, I enjoy making things presentable and appealing to the eye.</option>
+            <option value="1">I am very adept at complex technical an logistical challenges.</option>
+            <option value="2">I am confident in my technical abilities, but don't enjoy tedius and overcomplicated analytics.</option>
+            <option value="3">I am not fond of logistical challenges, I much more creative than analytical.</option>
             <option value="4">I am not sure what my logistical proficiency is.</option>
           </select>
         </div>
@@ -101,7 +72,7 @@
         <div id="cSharp" class="track-match">
           <div class="well">
             <h1>C#</h1>
-            <img src="img/csharp.jpg" alt="C sharp logo">
+            <img class="track-img" src="img/csharp.jpg" alt="C sharp logo">
             <ul>
               <li>C# is most popular among bigger established businesses</li>
               <li>Because it has the backing of Microsoft, it is one of the most in-demand languages in the job market. </li>
@@ -112,7 +83,7 @@
         <div id="css" class="track-match">
           <div class="well">
             <h1>CSS/React</h1>
-            <img src="img/css.jpg" alt="C sharp logo">
+            <img class="track-img" src="img/css.jpg" alt="C sharp logo">
             <ul>
               <li>CSS is the language for describing the presentation of Web pages.</li>
               <li>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.  </li>
@@ -123,7 +94,7 @@
         <div id="ruby" class="track-match">
           <div class="well">
             <h1>Ruby</h1>
-            <img src="img/ruby.jpg" alt="C sharp logo">
+            <img class="track-img" src="img/ruby.jpg" alt="C sharp logo">
             <ul>
               <li>Ruby is a programming language focused on simplicity and productivity.</li>
               <li>Ruby and Rails are typically used by younger companies and startups.</li>
@@ -134,8 +105,8 @@
         <div id="research" class="track-match">
           <div class="well">
             <h1>You seem unsure, here is more information to research.</h1>
-            <img src="img/research.jpg" alt="C sharp logo">
-            <h3>Here are a few blogs to read that may help you clarify what you are looking for.</h3>
+            <img class="track-img" src="img/research.jpg" alt="C sharp logo">
+            <h3 id="underlineh3">Here are a few blogs to read that may help you clarify what you are looking for.</h3>
             <ul>
               <li><a html="http://blog.teamtreehouse.com/choose-programming-language">Treehouse: "How to Choose a Programming Language"</a></li>
               <li><a href="https://medium.com/the-mission/how-to-choose-which-programming-language-to-learn-infographic-46f7874bd02">The Mission: How to Choose Which Programming Language to Learn</a></li>
@@ -145,5 +116,7 @@
         </div>
       </form>
     </div>
+    <footer>
+    </footer>
   </body>
 </html>
