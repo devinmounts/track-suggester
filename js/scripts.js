@@ -1,22 +1,25 @@
 $(function(){
   $("#submitButton").click(function(event){
-    var questionOne = parseInt($("#firstQuestion").val());
+    var questionOne = $("#firstQuestion").val();
     alert(questionOne);
-    var questionTwo = parseInt($("#secondQuestion").val());
 
-    var questionThree = parseInt($("#thirdQuestion").val());
+    var questionTwo = $("#secondQuestion").val();
+    alert(questionTwo);
+    var questionThree = $("#thirdQuestion").val();
 
-    var questionFour = parseInt($("#fourthQuestion").val());
+    var questionFour = $("#fourthQuestion").val();
 
-    var questionFive = parseInt($("#fifthQuestion").val());
+    var questionFive = $("#fifthQuestion").val();
+    alert(questionFive);
+
+    // $(".track-match").hide();
 
 
-    $(".track-match").hide();
+    var numLine = questionOne + questionTwo + questionThree + questionFour + questionFive;
+    alert(numLine);
 
-
-    var total = questionOne + questionTwo + questionThree + questionFour + questionFive ;
-    alert(total);
-
+    var search = (numLine, 0)
+  alert(search);
     if(total <=5 && total !=0 ){
       $("#cSharp").show();
     } else if(total <=10 && total >=6){
