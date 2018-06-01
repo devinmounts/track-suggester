@@ -10,12 +10,14 @@ $(function(){
 
     var questionFive = parseInt($("#fifthQuestion").val());
 
+
     $(".track-match").hide();
 
-    var total = questionOne + questionTwo + questionThree + questionFour + questionFive;
+
+    var total = questionOne + questionTwo + questionThree + questionFour + questionFive ;
     alert(total);
 
-    if(total >0 && total <= 5){
+    if(total <=5 && total !=0 ){
       $("#cSharp").show();
     } else if(total <=10 && total >=6){
       $("#ruby").show();

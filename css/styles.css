@@ -2,9 +2,14 @@
   display: none;
   font-size: 14pt;
   font-family: sans-serif;
+  border-radius: solid #00b3b4 ;
 }
 
 .jumbotron{
   text-decoration-color: #00b3b4;
   background-color: #00b3b4;
+}
+
+.top-nav{
+  justify-content: end;
 }
